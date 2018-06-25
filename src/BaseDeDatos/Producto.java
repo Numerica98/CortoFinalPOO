@@ -31,6 +31,12 @@ public class Producto {
         this.disponibilidad = disponibilidad;
     }
 
+    public Producto(String codigo, String tipo, boolean disponibilidad) {
+        this.codigo = codigo;
+        this.tipo = tipo;
+        this.disponibilidad = disponibilidad;
+    }
+
     public int getId() {
         return id;
     }

@@ -5,7 +5,7 @@
  */
 package BaseDeDatos;
 
-import com.sun.istack.internal.logging.Logger;
+import java.util.logging.Logger;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
